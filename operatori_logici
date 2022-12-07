@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+   background-color: rgba(238, 236, 233, 0.777); 
+}
+
+    #box1 {
+height: 199px; 
+width: 253px;
+border: 1px solid black;
+}
+    #box2 {
+height: 198px;
+width: 254px;
+border: 1px solid black;
+    }
+    #box3{
+height: 200px;
+width: 200px;
+border: 1px solid black;
+    }
+   #box4{
+height: 200px;
+width: 200px;
+border: 1px solid black;
+   } 
+   #box5{
+height: 200px;
+width: 200px;
+border: 1px solid black;
+   }
+    
+    </style>
+</head>
+<body>
+
+<h2><center>Operatori Logici</center></h2>
+<p>cliccando queste immagini scoprirete cosa sono e quali sono gli operatori logici.</p>
+
+<div id="box1"><a href=""><img src="https://github.com/caraccioambra/STA/blob/main/image/images-6.png?raw=true" alt=""></a></div>
+<div id="box2"><a href=""><img src="https://github.com/caraccioambra/STA/blob/main/image/images-7.png?raw=true" alt=""></a></div>
+<div id="box3"><a href=""><img src="https://github.com/caraccioambra/STA/blob/main/image/images.png?raw=true" alt=""></a></div>
+<div id="box4"><a href=""><img src="https://github.com/caraccioambra/STA/blob/main/image/images-4.png?raw=true" alt=""></a></div>
+<div id="box5"><a href=""><img src="https://github.com/caraccioambra/STA/blob/main/image/images-5.png?raw=true" alt=""></a></div>
+
+</body>
+</html>
