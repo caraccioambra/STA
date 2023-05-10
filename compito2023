@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compito caraccio</title>
+</head>
+<body>
+    
+</body>
+</html><script type="text/javascript">
+    let formula = prompt("Per favore, scegli una formula della prima legge di Ohm: (1) V = I x R, (2) R = V / I, (3) I = V / R");
+   
+    if (formula == "1") {
+      var voltage = prompt("tensione");
+      var current = prompt("intensità");
+      var resistance = voltage / current;
+      alert("resistenza: " + resistance + " ohm");
+    } 
+    else if (formula == "2") {
+      var voltage = prompt("tensione");
+      var resistance = prompt("resistenza");
+      var current = voltage / resistance;
+      alert("L'intensità: " + current + " ampere");
+    } 
+    else if (formula == "3") {
+      var resistance = prompt("resistenza");
+      var current = prompt("intensità");
+      var voltage = resistance * current;
+      alert("tensione: " + voltage + " volt");
+    } 
+    else {
+      alert("Scegliere una delle tre formule!");
+    }
+  </script>
